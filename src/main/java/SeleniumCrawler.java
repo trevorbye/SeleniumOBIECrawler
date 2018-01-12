@@ -88,7 +88,7 @@ public class SeleniumCrawler {
 
         WebElement password = driver.findElement(By.id("sawlogonpwd"));
         password.clear();
-        password.sendKeys("234402coliC");
+        password.sendKeys("change_to_real_pass");
 
         //click form submit
         WebElement submitButton = driver.findElement(By.id("idlogon"));
